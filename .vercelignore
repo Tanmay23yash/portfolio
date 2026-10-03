@@ -1,0 +1,5 @@
+# Never upload local secrets or build artifacts to Vercel.
+.env*
+!.env.example
+dist
+node_modules
